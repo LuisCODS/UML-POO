@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T13:33:24.696Z" agent="5.0 (Windows)" etag="ClEVHmmaR1N6feJynX7U" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T13:36:44.962Z" agent="5.0 (Windows)" etag="ERNJmgL00cABaN7v7NJ9" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="916" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,30 +135,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9IxOjkYerTLDLRDFGGTt-45" value="&lt;h1&gt;Avantages:&lt;/h1&gt;&lt;p&gt;Le système est prêt pour recevoir un nouveau&lt;/p&gt;&lt;p&gt;type de paiement au besoin;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="520" y="10" width="280" height="110" as="geometry" />
+          <mxGeometry x="430" y="510" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9IxOjkYerTLDLRDFGGTt-46" value="Polymorphisme" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="10" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9IxOjkYerTLDLRDFGGTt-47" value="Main" style="swimlane;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="390" y="550" width="400" height="180" as="geometry" />
+          <mxGeometry x="427" y="620" width="400" height="180" as="geometry" />
         </mxCell>
         <mxCell id="9IxOjkYerTLDLRDFGGTt-48" value="&lt;div&gt;Paiement card = new PaiementBycart();&lt;/div&gt;&lt;div&gt;card.payer();&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="9IxOjkYerTLDLRDFGGTt-47" vertex="1">
           <mxGeometry x="10" y="30" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="prvIpakaxeABfu2lIwOq-4" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Paiement paypal = new PaiementByPaypal();&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;paypal.payer();&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="9IxOjkYerTLDLRDFGGTt-47">
+        <mxCell id="prvIpakaxeABfu2lIwOq-4" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Paiement paypal = new PaiementByPaypal();&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;paypal.payer();&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" parent="9IxOjkYerTLDLRDFGGTt-47" vertex="1">
           <mxGeometry x="10" y="80" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="prvIpakaxeABfu2lIwOq-0" value="PaiementByPaypal" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="prvIpakaxeABfu2lIwOq-0" value="PaiementByPaypal" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="580" y="350" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="prvIpakaxeABfu2lIwOq-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="prvIpakaxeABfu2lIwOq-0">
+        <mxCell id="prvIpakaxeABfu2lIwOq-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="prvIpakaxeABfu2lIwOq-0" vertex="1">
           <mxGeometry y="26" width="180" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="prvIpakaxeABfu2lIwOq-2" value="+ payer()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="prvIpakaxeABfu2lIwOq-0">
+        <mxCell id="prvIpakaxeABfu2lIwOq-2" value="+ payer()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="prvIpakaxeABfu2lIwOq-0" vertex="1">
           <mxGeometry y="40" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="prvIpakaxeABfu2lIwOq-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="prvIpakaxeABfu2lIwOq-0" target="9IxOjkYerTLDLRDFGGTt-4">
+        <mxCell id="prvIpakaxeABfu2lIwOq-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="prvIpakaxeABfu2lIwOq-0" target="9IxOjkYerTLDLRDFGGTt-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="494.891304347826" y="360" as="sourcePoint" />
             <mxPoint x="401.63043478260875" y="230" as="targetPoint" />
